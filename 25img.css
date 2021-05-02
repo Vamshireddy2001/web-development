@@ -1,0 +1,30 @@
+.col{
+    display:flex ;
+    width:500px;
+    height:150px;
+    border-radius:0px;
+    padding: 15px 25px;
+    box-sizing:content-box;
+    cursor: pointer;
+    margin: 15px 30px;
+    background-position:top;
+    background-size:cover;
+}
+.col1{
+    background-image: url(images/cricket.jfif);
+}
+.col2{
+    background-image: url(images/football.jfif);
+}
+.col3{
+    background-image: url(images/batmention.jfif);
+}
+.col4{
+    background-image: url(images/formula.jfif);
+}
+.col5{
+    background-image: url(images/golf.jfif);
+}
+p{
+    color:aliceblue;
+}
