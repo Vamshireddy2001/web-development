@@ -1,0 +1,17 @@
+.container{
+    width: 550px;
+    margin:0px auto;
+}
+.left-coloum{
+    width: 700px;
+    float: left;
+
+}
+@media screen and(max-width:549px)  {
+    #container{
+        width:100%;
+    }
+    #left-column{
+        width: 70%;
+    }
+}

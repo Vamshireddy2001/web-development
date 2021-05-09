@@ -1,0 +1,26 @@
+.container{
+    background-color: #0C111B;
+}
+.li{
+    color:aliceblue;
+    margin: 150px;
+
+}
+.vamshi{
+    display: flex;
+}
+.ul img{
+    width:100px;
+    height:80px;
+    padding: 0px 0px 200px 20px;
+   
+}
+.amo{
+    display: flex;
+}
+.al img{
+    width:200px;
+    height:80px;
+  padding: 0px 0px 300px 300px;
+}
+
