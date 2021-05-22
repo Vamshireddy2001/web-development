@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>vamshireddy</title>
 </head>
 <style>
@@ -32,6 +34,23 @@ nav ul li{
     padding-right: 25px;
     
 }
+@media screen and (min-width:450px) {
+    .nav{
+        display:block;
+    }
+    .ul{
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav{
+        display:none;
+    }
+    .ul{
+        display:block;
+    }
+}
+
 </style>
 <body>
     <div class="container">
@@ -48,7 +67,10 @@ nav ul li{
                         <li> <a href=""> contact</a> </li> 
                         <li> <a href=""> cot</a> </li> 
                         <li> <a href=""> name</a> </li>
-                        <li> <a href=""> lable</a> </li>  
+                        <li> <a href=""> lable</a> </li>
+                        <span class="material-icons-outlined">
+                            menu
+                            </span>
                         
                     </ul>
                 </nav>
