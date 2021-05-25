@@ -7,25 +7,27 @@
     <title>Document</title>
 </head>
 <style>
-    .vamshi small{
-        display: flex;
-    }
-    @media screen and (min-width:450px) {
-        .vamshi{
+    
+    @media screen and (max-width:990px) {
+        .container{
             display:block;
         }
-        
-    }
-    @media screen and (max-width:990px) {
-        .vamshi{
-            display:block;
+      
+        .container{
+            display: flex;
+        }
+        .vamshi img{
+            height:100px;
+            width:100px;
+           
         }
         
     }
 </style>
 <body>
-    <img src="photos/master.jpg">
+    <div class="container">
     <div class="vamshi">
+        <img src="photos/master.jpg">
         <h3>Learn Animation Production with Blender 2.9</h3>
         <p>learn to use blender to create your own 3d animation</p>
         <small>by Darrin lile</small>
@@ -33,6 +35,7 @@
         <small>11 hours total .62 lectures .Beginner</small>
         4.7
         <p>1,280</p>
+    </div>
     </div>
 </body>
 </html>
