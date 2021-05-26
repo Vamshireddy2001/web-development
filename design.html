@@ -7,8 +7,12 @@
     <title>Document</title>
 </head>
 <style>
+    .logo{
+        display: flex;
+    }
     .navbar{
         display: flex;
+     
      
     }
     .navbar div{
@@ -67,18 +71,35 @@
 button{
     background-color: orange;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 50px;
   
   width:80px;
   height:40px;
    
 }
 .container{
-    background-color: papayawhip;
+    background-color: bisque;
 }
-@media  screen and (max-width:400px) {
+
+@media  screen and (max-width:769px) {
        .hello{
-           max-width: 400px;
+           flex-direction: column-reverse;
+       }
+       .hello img{
+           width:300px;
+       }
+       .me{
+           flex-direction: column;
+       }
+       .me img{
+        width:300px;
+       }
+          
+       .vamshi{
+           display: block;
+       }
+       .space{
+           display:block ;
        }
 }
 </style>
