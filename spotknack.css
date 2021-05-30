@@ -22,9 +22,7 @@ a {
    border-radius: 50%;
    
 }
-.brand{
-	display: flex;
-}
+
 .container {
 	min-height: 100vh;
 	width: 100%;
@@ -130,12 +128,16 @@ p {
    border-radius: 50%;
    height: 80px;
 }
-#footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+.shop{
+	background-color:gray;
+	width:100%;
+	padding: 50px;
+	display: flex;
+
 }
-#footer p {
-	color: white;
-	
+.col-row-3{
+	display: flex;
+
 }
 
 @media only screen and (min-width: 768px) {
