@@ -29,16 +29,12 @@
 	padding-top: 50px ;
     text-align: center;
 }
-#services .services h1{
+ .service-top h1{
 	font-family:Playfair display;
-    font-size: 60px;
+    font-size: 50px;
 	width:100%;
 }
- #services.services-top p{
-	 width:50%;
-	 text-align: center;
-	 
-}
+ 
 .facilio{
 	display:flex;
 	align-items: center;
@@ -48,6 +44,11 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+}
+.service-top p{
+	width: 50%;
+	padding-left: 50px;
+	margin-left: 50px;
 }
 #services h2{
     font-size: 50px;
@@ -97,7 +98,10 @@
 #services .service-item p {
 	color: white;
 }
-
+#services.service-item {
+	display: flex;
+	flex-direction: row;
+}
 .vijay{
     text-align:center;
 }
@@ -119,11 +123,11 @@
 }
 .shops img{
 width: 200px;
+margin-bottom: 50px;
 }
 .row{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	
 }
 .footer {
     width: 70%;
@@ -136,6 +140,8 @@ width: 200px;
      width:100%;
 	
 }
+
+
 .position{
 	display: flex;
 	padding: 10px;
@@ -146,7 +152,7 @@ width: 200px;
 .posion{
 	border:1px solid black;
 	width:200px;
-	height:50px;
+	height:60px;
 	text-align: center;
 	background-color: white;
 
@@ -160,18 +166,33 @@ width: 200px;
 
 @media only screen and (min-width: 768px) {
 	
+	.footer{
+		
+		flex-direction: column;
+		width: 100%;
+		padding-left: 40px;
+	}
+
 
 }
 	
 @media only screen and (min-width: 1200px) {
 	
-
+.menu{
+	display: block;
+}
 	#header .nav-list ul li a {
 		font-size: 1.8rem;
 	}
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
+	}
+	.footer{
+	
+		flex-direction: row;
+		width:100%;
+
 	}
 
 }
