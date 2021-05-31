@@ -3,52 +3,57 @@
 .logo img{
  width:200px;
 }
-
-
 .menu{
- margin-right: 150px;
- position: absolute;
- right:0px;
-
-}
-
-
-#header .header {
-	min-height: 8vh;
-
+display: flex;
+align-items:center;
 }
 #header .navbar {
-	width: 100%;
-		display: flex;
-		position: fixed;
-		align-items: center;	
-		background-color: white;
+	width: 95%;
+	display: flex;	
+	background-color: white;
+	justify-content:space-between;
+ position: fixed;
+}
+.navbar{
+	align-items: center;
 }
 #services .services {
-	flex-direction: column;
 	padding-top: 50px ;
     text-align: center;
 }
  .service-top h1{
 	font-family:Playfair display;
     font-size: 50px;
-	width:100%;
+	
 }
  
 .facilio{
+	width: 50%;
 	display:flex;
 	align-items: center;
-	padding: 30px;
+	
+
+}
+.pen{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 #services .service-bottom {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
+.service-top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .service-top p{
 	width: 50%;
-	padding-left: 50px;
-	margin-left: 50px;
+}	
+.facilio{
+	
 }
 #services h2{
     font-size: 50px;
@@ -107,9 +112,9 @@
     text-align:center;
 }
 .vijay p{
-    font-size: 20px;
-    padding: 30px;
+	font-size: 25px;
 }
+
 .vijay img{
    border-radius: 50%;
    height: 80px;
@@ -134,7 +139,7 @@ margin-bottom: 50px;
     width: 70%;
     display: flex;
     flex-direction: row;
-    padding-left: 50px;
+   
 	
 }
 .foot{
@@ -162,11 +167,13 @@ margin-bottom: 50px;
 	width:80px;
 	height:50px;
 	border-radius: 50%;
-	border-color: tomato;
+	border: 5px solid red;
 }
 
 @media only screen and (min-width: 768px) {
-	
+	.menu{
+		display: none;
+	}
 	.footer{
 		
 		flex-direction: column;
