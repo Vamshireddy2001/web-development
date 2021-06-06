@@ -198,8 +198,8 @@ margin-bottom: 50px;
 	font-size: 1.8rem;
 }
 #services .service-bottom .service-item {
-	flex-basis:300px;
-	margin: 40px;
+	flex-basis:22%;
+	margin:1.2%;
 }
 .footer{
 	display: flex;
