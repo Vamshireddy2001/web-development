@@ -25,95 +25,72 @@ align-items:center;
 	padding-top: 50px ;
     text-align: center;
 }
+.service-bottom{
+	font-size: 20px;
+	justify-content: center;
+	display: flex;
+}
+.sub{
+	width:50%;
+}
  .service-top h1{
 	font-family:Playfair display;
     font-size: 50px;
 	
 }
- 
+ .brand{
+  display: flex;
+  align-items: center;
+ }
 .facilio{
 	display:flex;
 	justify-content: center;
-
+   
 }
-
-#services .service-bottom {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+.container h2{
+	width: 30%;
+	text-align: center;
 }
-.service-top {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.box-col1{
+background-color: #ffdc5a;
+margin-left: 10px;
+padding: 40px;
+text-align: center;
 }
-.service-top p{
-	width: 50%;
-}	
-.brand{
-	display: flex;
-	align-items: center;
+.box-col2{
+	background-color: #5afffb;
+	margin-left: 10px;
+	padding: 40px;
+	text-align: center;
 }
-
-
-#services h2{
-    font-size: 50px;
-	padding-left: 30px;
-	margin-top: 30px;
+.box-col3{
+	background-color:#c9fd6a ;
+	margin-left: 10px;
+	padding: 40px;
+	text-align: center;
 }
- .service-bottom .vamshi{
-    display: flex;
-	
-}
-#services .service-vamshi {
-	display: flex;
-	
-	flex-wrap: wrap;
-	
-}
-
-
-#services .service-item {
-	flex-basis: 80%;
-	display: flex;
-	flex-direction: column;
-	padding: 30px;
+.boxes{
 	border-radius: 10px;
-	margin: 10px 5%;
-	position: relative;
-	overflow: hidden;
 }
-#services .service-item img{
-    border-radius: 50%;
-}
-#services .service-item::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
-	z-index: -1;
-}
-
-#services .service-item h2 {
-	font-size: 2rem;
-	color: white;
-	margin-bottom: 10px;
-}
-#services .service-item p {
-	color: white;
-}
-#services.service-item {
+.box-content{
 	display: flex;
-	flex-direction: row;
+	width:80%;
+	margin-left: 70px;
+	margin-top:50px;
 }
-.pen{
-	display: flex;
-	justify-content: space-evenly;
-	padding: 50px;
+.box-test{
+	background-color:#ff7cef;
+	width:30%;
+	text-align: justify;
+	margin-right: 20px;
+	padding: 40px;
+	border-radius: 10px;;
+}
+.box-video{
+	border-radius: 10px;
+	
+	padding: 40px;
+	background-image: linear-gradient( to left, #d16ba5, #ef7386, #f78867, #eaa651, #ccc452, #b4d465, #98e281, #76eea3, #69f2b9, #5ff6cd, #5bf9e0, #5ffbf1 );
 }
 .vijay{
     text-align:center;
@@ -131,13 +108,15 @@ align-items:center;
 	padding-top: 10px;
     padding-bottom: 20px;
     width: 100%;
-    background-color:gray;
+    background-color:#131415;
     height: auto;
 	text-decoration: none;
 }
 .shops img{
 width: 200px;
+background-color: aliceblue;
 margin-bottom: 50px;
+margin-left: 150px;
 }
 .row{
 	display: flex;
@@ -145,12 +124,15 @@ margin-bottom: 50px;
 }
 .footer {
     flex-direction: column;
-	
+	justify-content: space-evenly;
 }
 .foot a{
 	text-decoration: none;
 	color: azure;
 	
+}
+.foot p{
+    color:#49494A;
 }
 .position{
 	display: flex;
@@ -178,18 +160,32 @@ margin-bottom: 50px;
 	height:40px;
 }
 .social{
-	padding: 30px;;
+	padding: 30px;
+	color:#49494A ;
+	margin-left:150px;
 }
 
 @media only screen and (max-width: 768px) {
 	.menu{
 		display: none;
 	}
+	.box-content{
+		display: block;
+		padding-bottom: 20px;
+	}
 	.facilio{
 		margin: auto;
 	}
+	.social{
+		display: block;
+		margin-left: 30px;
+	}
+	.shops img{
+        margin-left: 70px;
+	}
 	.footer{
 		flex-direction: column;
+		margin-left: 30px;
 	}
 	ul{
 		flex-direction: column;
@@ -207,11 +203,7 @@ margin-bottom: 50px;
 #header .nav-list ul li a {
 	font-size: 1.8rem;
 }
-#services .service-bottom .service-item {
-	display: flex;
-	flex-basis:22%;
-	margin:1.2%;
-}
+
 .footer{
 	display: flex;
 	flex-direction: row;
