@@ -47,51 +47,65 @@ align-items:center;
 	justify-content: center;
    
 }
-.container h2{
-	width: 30%;
+.row{
+	justify-content: center;
+}
+.line h2{
+	margin-left: 190px;
+	font-size: 30px;
+}
+.card-1{
+	background-color: #ffdc5a ;
+	max-width: 300px;
+	height: 150px;
+	margin: 10px;
+	border-radius: 10px;
+	flex: -1;
 	text-align: center;
+	padding: 30px;
 }
-.box-col1{
-background-color: #ffdc5a;
-margin-left: 10px;
-padding: 40px;
-text-align: center;
-}
-.box-col2{
+.card-2{
 	background-color: #5afffb;
-	margin-left: 10px;
-	padding: 40px;
+	max-width: 300px;
+	height: 150px;
+	margin: 10px;
+	border-radius: 10px;
+	flex: -1;
 	text-align: center;
+	padding: 30px;
 }
-.box-col3{
+
+.card-3{
 	background-color:#c9fd6a ;
-	margin-left: 10px;
-	padding: 40px;
+	max-width: 300px;
+	height: 150px;
+	margin: 10px;
+	border-radius: 10px;
+	flex: -1;
 	text-align: center;
+	padding: 30px;
 }
-.boxes{
-	border-radius: 10px;
-}
-.box-content{
-	display: flex;
-	width:80%;
-	margin-left: 70px;
-	margin-top:50px;
-}
-.box-test{
+.note-1{
 	background-color:#ff7cef;
-	width:30%;
-	text-align: justify;
-	margin-right: 20px;
-	padding: 40px;
-	border-radius: 10px;;
-}
-.box-video{
+	flex: 1;
+	max-width: 400px;
+	height: 150px;
+	margin:10px;
 	border-radius: 10px;
-	
-	padding: 40px;
-	background-image: linear-gradient( to left, #d16ba5, #ef7386, #f78867, #eaa651, #ccc452, #b4d465, #98e281, #76eea3, #69f2b9, #5ff6cd, #5bf9e0, #5ffbf1 );
+	text-align: center;
+	padding: 20px;
 }
+.note-2{
+	background-image: linear-gradient( to left, #d16ba5, #ef7386, #f78867, #eaa651, #ccc452, #b4d465, #98e281, #76eea3, #69f2b9, #5ff6cd, #5bf9e0, #5ffbf1 );
+	flex: -1;
+	width: 450px;
+	height: 150px;
+	margin:10px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+}
+
 .vijay{
     text-align:center;
 }
@@ -169,9 +183,29 @@ margin-left: 150px;
 	.menu{
 		display: none;
 	}
-	.box-content{
+	
+    .card-1{
+		flex:100%;
+		max-width: 400px;
+	}
+	.card-2{
+		flex:100%;
+		max-width: 400px;
+	}
+	.card-3{
+		flex:100%;
+		max-width: 400px;
+	}
+	.note-1{
+		flex:100%;
+		max-width: 400px;
+	}
+	.note-2{
+		flex:100%;
+		max-width: 400px;
+	}
+	.row{
 		display: block;
-		padding-bottom: 20px;
 	}
 	.facilio{
 		margin: auto;
