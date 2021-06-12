@@ -209,8 +209,8 @@ margin-left: 150px;
 	}
 	.note-2{
 		flex:100%;
-		width: 400px;
-		flex: none;
+		width: auto;
+		
 	}
 	.row{
 		display: block;
@@ -236,7 +236,7 @@ margin-left: 150px;
 
 
 }
-	
+
 @media only screen and (min-width:1000px) {
 	
 .menu{
